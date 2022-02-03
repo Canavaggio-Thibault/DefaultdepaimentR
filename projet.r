@@ -309,11 +309,12 @@ for ( i in 1:300){
 library(questionr)
 rmarkdown::paged_table(Resultat)
 ```
-#Bilan: Il faut prendre en compte que tous ces résultats sont génèrés 
+###Bilan:
+#Il faut prendre en compte que tous ces résultats sont génèrés 
 #a partir d’un partionnement aléatoire du jeu de donnée, les résultats 
 #different légèrement d’un tirage a l’autre.J'ai remarqué que le code Svm peut 
 #être le meilleur classifieur comme le pire c'est pourquoi il n'a pas
- été pris comme classifieur à cause de son manque de stabilité.
+#été pris comme classifieur à cause de son manque de stabilité.
 #On a également remarqué que le classifieur random forest est le plus 
 #stable de tous les classifieurs mais le réseaux de neurones offrent de
 #meilleurs résultats.
